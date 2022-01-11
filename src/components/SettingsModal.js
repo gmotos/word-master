@@ -74,13 +74,13 @@ export const SettingsModal = ({ isOpen, handleClose, styles, darkMode, toggleDar
           </div>
           <div className="flex flex-col items-center">
             <div className="mb-4">
-              Αν σας αρέσει αυτό το παιχνίδι, μπορείτε να υποστηρίξετε τη δημιουργό της αυθεντικής εφαρμογής {' '}
+              Αν σας αρέσει αυτό το παιχνίδι, μπορείτε να υποστηρίξετε τη δημιουργό της αρχικής αγγλικής εφαρμογής {' '}
               <a
                 href="https://www.buymeacoffee.com/katherinecodes"
                 target="_blank"
                 rel="noreferrer"
               >
-                κερνώντας ένα καφέ
+                κερνώντας την έναν καφέ
               </a>.
               <span className="ml-1 text-xs">💛</span>
             </div>

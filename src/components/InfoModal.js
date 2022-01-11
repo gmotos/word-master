@@ -18,7 +18,8 @@ export const InfoModal = ({ isOpen, handleClose, darkMode, styles }) => (
           <h1 className="text-center sm:text-3xl text-2xl">Κανόνες παιχνιδιού</h1>
           <ul className="list-disc pl-5 block sm:text-base text-sm">
             <li className="mt-6 mb-2">Έχετε 6 ευκαιρίες για να μαντέψετε τη σωστή λέξη.</li>
-            <li className="mb-2">You can guess any valid word.</li>
+            <li className="mb-2">Μπορείτε να δοκιμάσετε οποιαδήποτε ελληνική λέξη· όχι τυχαία γράμματα.</li>
+            <li className="mb-2">Αν η γράψετε μια άγνωστη λέξη, τα γράμματα θα εμφανιστούν με κόκκινο περίγραμμα.</li>
             <li className="mb-2">
               Μετά από κάθε μαντεψιά, κάθε γράμμα θα γίνει πράσινο, κίτρινο ή γκρι.
             </li>
@@ -44,7 +45,7 @@ export const InfoModal = ({ isOpen, handleClose, darkMode, styles }) => (
           <span>Λάθος γράμμα</span>
         </div>
         <div className="flex justify-center sm:text-base text-sm">
-          <span>Ο ανοικτός κώδικας του προγράμματος βρίσκεται στο</span>
+          <span>Πηγαίος κώδικας στο</span>
           <a
             className="ml-[6px] rounded-full h-5 w-5 sm:h-6 sm:w-6"
             href="https://github.com/dspinellis/word-master"
