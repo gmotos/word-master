@@ -19,7 +19,7 @@ export const InfoModal = ({ isOpen, handleClose, darkMode, styles }) => (
           <ul className="list-disc pl-5 block sm:text-base text-sm">
             <li className="mt-6 mb-2">Έχετε 6 ευκαιρίες για να μαντέψετε τη σωστή λέξη.</li>
             <li className="mb-2">Μπορείτε να δοκιμάσετε οποιαδήποτε ελληνική λέξη· όχι τυχαία γράμματα.</li>
-            <li className="mb-2">Αν η γράψετε μια άγνωστη λέξη, τα γράμματα θα εμφανιστούν με κόκκινο περίγραμμα.</li>
+            <li className="mb-2">Αν γράψετε μια άγνωστη λέξη, τα γράμματα θα εμφανιστούν με κόκκινο περίγραμμα.</li>
             <li className="mb-2">
               Μετά από κάθε μαντεψιά, κάθε γράμμα θα γίνει πράσινο, κίτρινο ή γκρι.
             </li>
