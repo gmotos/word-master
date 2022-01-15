@@ -16,7 +16,7 @@ normalize()
   # Remove uppercase stresses
   y/ΆΈΉΊΪΌΎΫΏ/ΑΕΗΙΙΟΥΥΩ/
   # Map lowercase to uppercase
-  y/αβγδεζηθικλμνξοπρστυφχψω/ΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩ/
+  y/αβγδεζηθικλμνξοπρσςτυφχψω/ΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΣΤΥΦΧΨΩ/
   # One Greek word per line; remove all else
   s/[^ΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩ]/\n/g
   ' |
