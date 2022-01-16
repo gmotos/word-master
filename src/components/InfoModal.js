@@ -36,7 +36,7 @@ export const InfoModal = ({ isOpen, handleClose, darkMode, styles }) => (
               W
             </span>
             <span className="mx-2">=</span>
-            <span>Σωστό γράμμα, λάθος θέση</span>
+            <span>Σωστό γράμμα, λανθασμένη θέση</span>
           </div>
           <span className="nm-inset-n-gray text-gray-50 inline-flex items-center justify-center text-3x w-10 h-10 rounded-full">
             W
