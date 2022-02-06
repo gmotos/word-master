@@ -1,4 +1,4 @@
-# Word Master — Greek version
+# Word Master — Greek version — Λεξιγνώστης
 
 🔗 https://dspinellis.github.io/word-master/
 
