@@ -1,4 +1,4 @@
-import { keyboardLetters, status, letters } from '../constants'
+import { keyboardLetters, status, letters, englishToGreek } from '../constants'
 import { useEffect, useCallback } from 'react'
 
 const Keyboard = ({ letterStatuses, addLetter, onEnterPress, onDeletePress, gameDisabled }) => {
@@ -27,11 +27,14 @@ const Keyboard = ({ letterStatuses, addLetter, onEnterPress, onDeletePress, game
   const handleKeyDown = useCallback(
     (event) => {
       if (gameDisabled) return
+      var greekLetter;
 
       const letter = event.key.toUpperCase()
 
       if (letters.includes(letter)) {
         addLetter(letter)
+      } else if ((greekLetter = englishToGreek[letter]) != null) {
+        addLetter(greekLetter);
       } else if (letter === 'ENTER') {
         onEnterPress()
         event.preventDefault()
