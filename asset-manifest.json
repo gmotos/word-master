@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/word-master/static/css/main.7a63b5f1.css",
-    "main.js": "/word-master/static/js/main.9dcd9388.js",
+    "main.css": "/word-master/static/css/main.e8600eda.css",
+    "main.js": "/word-master/static/js/main.4f0e01ed.js",
     "static/media/Cross.png": "/word-master/static/media/Cross.cbf77228e847522eff11.png",
     "static/media/Success.png": "/word-master/static/media/Success.df533be8f86a57bc5946.png",
     "static/media/Ranade-Variable.ttf": "/word-master/static/media/Ranade-Variable.bb177f94a709e8e8f396.ttf",
     "index.html": "/word-master/index.html",
-    "static/media/Github.svg": "/word-master/static/media/Github.6a9e1709e73c56888979048bb60e60a5.svg",
-    "static/media/Settings.svg": "/word-master/static/media/Settings.0808c435ed629b919ffa742a20d897f6.svg",
-    "static/media/Info.svg": "/word-master/static/media/Info.ee717ac430bb01bfbbd42aa3dbffe913.svg",
-    "static/media/Close.svg": "/word-master/static/media/Close.f34771d5d250820d8c5ec83c816bf8f5.svg",
-    "main.7a63b5f1.css.map": "/word-master/static/css/main.7a63b5f1.css.map",
-    "main.9dcd9388.js.map": "/word-master/static/js/main.9dcd9388.js.map"
+    "static/media/Github.svg": "/word-master/static/media/Github.d27679b8d9e85b12213b6a7e8501b302.svg",
+    "static/media/Settings.svg": "/word-master/static/media/Settings.f331175cf3c7be8e472616cfa44ad022.svg",
+    "static/media/Info.svg": "/word-master/static/media/Info.25fc81bdb1513b3bbdd73954d273f9a0.svg",
+    "static/media/Close.svg": "/word-master/static/media/Close.9b76c69e64ab581876fc79bad92c06d6.svg",
+    "main.e8600eda.css.map": "/word-master/static/css/main.e8600eda.css.map",
+    "main.4f0e01ed.js.map": "/word-master/static/js/main.4f0e01ed.js.map"
   },
   "entrypoints": [
-    "static/css/main.7a63b5f1.css",
-    "static/js/main.9dcd9388.js"
+    "static/css/main.e8600eda.css",
+    "static/js/main.4f0e01ed.js"
   ]
 }
