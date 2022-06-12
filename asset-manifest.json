@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/word-master/static/css/main.e8600eda.css",
-    "main.js": "/word-master/static/js/main.4f0e01ed.js",
-    "static/media/Cross.png": "/word-master/static/media/Cross.cbf77228e847522eff11.png",
-    "static/media/Success.png": "/word-master/static/media/Success.df533be8f86a57bc5946.png",
-    "static/media/Ranade-Variable.ttf": "/word-master/static/media/Ranade-Variable.bb177f94a709e8e8f396.ttf",
-    "index.html": "/word-master/index.html",
-    "static/media/Github.svg": "/word-master/static/media/Github.d27679b8d9e85b12213b6a7e8501b302.svg",
-    "static/media/Settings.svg": "/word-master/static/media/Settings.f331175cf3c7be8e472616cfa44ad022.svg",
-    "static/media/Info.svg": "/word-master/static/media/Info.25fc81bdb1513b3bbdd73954d273f9a0.svg",
-    "static/media/Close.svg": "/word-master/static/media/Close.9b76c69e64ab581876fc79bad92c06d6.svg",
-    "main.e8600eda.css.map": "/word-master/static/css/main.e8600eda.css.map",
-    "main.4f0e01ed.js.map": "/word-master/static/js/main.4f0e01ed.js.map"
+    "main.css": "/wordle/static/css/main.c3138844.css",
+    "main.js": "/wordle/static/js/main.272245f3.js",
+    "static/media/Cross.png": "/wordle/static/media/Cross.cbf77228e847522eff11.png",
+    "static/media/Success.png": "/wordle/static/media/Success.df533be8f86a57bc5946.png",
+    "static/media/Ranade-Variable.ttf": "/wordle/static/media/Ranade-Variable.bb177f94a709e8e8f396.ttf",
+    "index.html": "/wordle/index.html",
+    "static/media/Github.svg": "/wordle/static/media/Github.d27679b8d9e85b12213b6a7e8501b302.svg",
+    "static/media/Settings.svg": "/wordle/static/media/Settings.f331175cf3c7be8e472616cfa44ad022.svg",
+    "static/media/Info.svg": "/wordle/static/media/Info.25fc81bdb1513b3bbdd73954d273f9a0.svg",
+    "static/media/Close.svg": "/wordle/static/media/Close.9b76c69e64ab581876fc79bad92c06d6.svg",
+    "main.c3138844.css.map": "/wordle/static/css/main.c3138844.css.map",
+    "main.272245f3.js.map": "/wordle/static/js/main.272245f3.js.map"
   },
   "entrypoints": [
-    "static/css/main.e8600eda.css",
-    "static/js/main.4f0e01ed.js"
+    "static/css/main.c3138844.css",
+    "static/js/main.272245f3.js"
   ]
 }
