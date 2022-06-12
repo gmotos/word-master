@@ -11,6 +11,7 @@ import { ReactComponent as Settings } from './data/Settings.svg'
 import { InfoModal } from './components/InfoModal'
 import { SettingsModal } from './components/SettingsModal'
 import { EndGameModal } from './components/EndGameModal'
+import { useScreenLock } from './hooks/screenLock'
 
 const state = {
   playing: 'playing',
@@ -61,6 +62,7 @@ function App() {
   const [firstTime, setFirstTime] = useLocalStorage('first-time', true)
   const [infoModalIsOpen, setInfoModalIsOpen] = useState(firstTime)
   const [settingsModalIsOpen, setSettingsModalIsOpen] = useState(false)
+  const [screenLockEnabled, setScreenLockEnabled] = useScreenLock();
 
   const openModal = () => setIsOpen(true)
   const closeModal = () => setIsOpen(false)
@@ -340,6 +342,8 @@ function App() {
           styles={modalStyles}
           darkMode={darkMode}
           toggleDarkMode={toggleDarkMode}
+          screenLockEnabled={screenLockEnabled}
+          toggleScreenLock={() => setScreenLockEnabled(!screenLockEnabled)}
         />
         <Keyboard
           letterStatuses={letterStatuses}
