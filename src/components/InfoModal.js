@@ -48,7 +48,7 @@ export const InfoModal = ({ isOpen, handleClose, darkMode, styles }) => (
           <span>Πηγαίος κώδικας στο</span>
           <a
             className="ml-[6px] rounded-full h-5 w-5 sm:h-6 sm:w-6"
-            href="https://github.com/dspinellis/word-master"
+            href="https://github.com/gmotos/word-master"
             target="_blank"
             rel="noreferrer"
           >

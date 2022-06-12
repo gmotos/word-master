@@ -1,7 +1,5 @@
 # Word Master — Greek version — Λεξιγνώστης
 
-🔗 https://dspinellis.github.io/word-master/
-
 Heavily inspired by [Wordle](https://www.powerlanguage.co.uk/wordle/), Word Master is a word guessing game similar to Mastermind.
 This Greek word version is almost completely based on the
 [original English word version](https://github.com/octokatherine/word-master),
@@ -29,7 +27,7 @@ in the [Greek Wikipedia](https://el.wikipedia.org/)
 that were in the acceptable words list.
 The Unix shell script for creating the two lists is
 available
-[here](https://github.com/dspinellis/word-master/blob/main/src/data/mklists.sh).
+[here](src/data/mklists.sh).
 
 ## Rules
 
@@ -46,7 +44,7 @@ After submitting a guess, the letters will turn gray, green, or yellow.
 
 Feel free to open an issue for any bugs or feature requests.
 
-To contribute to the code, see [CONTRIBUTING.md](https://github.com/dspinellis/word-master/blob/main/CONTRIBUTING.md)
+To contribute to the code, see [CONTRIBUTING.md](CONTRIBUTING.md)
 
 ## See also
 
